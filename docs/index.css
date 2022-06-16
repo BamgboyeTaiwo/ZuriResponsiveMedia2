@@ -1,0 +1,31 @@
+.hero{
+background-image: url('./images/bg-hero-desktop.svg');
+background-color: hsl(193, 100%, 96%);
+}
+
+nav{
+    width: 100%;
+    justify-content: space-between;
+}
+.btn_hero button{
+    background-color: hsl(322, 100%, 66%);
+    margin: 0 auto;
+}
+.btn_hero{
+    width: 100%;
+}
+
+@media screen and (max-width:567px) {
+    body{
+        background-color: red;
+    }
+    .btn_hero button{
+        background-color: hsl(322, 100%, 66%);
+        margin: 0 auto;
+
+    }
+    .btn_hero{
+        margin-left: 12.5%;
+    }
+    
+}
